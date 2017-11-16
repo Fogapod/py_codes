@@ -1,5 +1,5 @@
 # This file demonstrates work of population optimization algorithm. 
-# It takes array of creatures with their scores, sort them by score and kills
+# It takes list of creatures with their scores, sort them by score and kills
 # half of population. Creatures with higherscore are most likely to survive.
 # However, the last creature do not have 100% chance to be killed and
 # the first do not have 100% chance to survive
