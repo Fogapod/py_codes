@@ -66,7 +66,7 @@ def iter_kill(population, size, elements_replaced=0):
             return population
 
         if not population[-i - 1].is_dead and \
-                i + 1 < random.randrange(size + 1):
+                i + 1 < random.randrange(size + 2):
 
             population[-i - 1].is_dead = True
             elements_replaced += 1
